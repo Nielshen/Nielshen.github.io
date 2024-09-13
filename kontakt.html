@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Mietpark</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            background-color: #ffd700;
+            padding: 20px 0;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .logo a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .phone {
+            display: flex;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+            margin: 40px 0;
+        }
+        main {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+        .contact-info {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .map {
+            height: 400px;
+            width: 100%;
+            border: none;
+            margin-top: 40px;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 550px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .footer-links {
+            margin-top: 10px;
+        }
+        .footer-links a {
+            color: #ffd700;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">MIETPARK</a>
+            </div>
+            <div class="phone">📞 +49 1575 4193983</div>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Kontaktieren Sie uns</h1>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h2>Kontaktinformationen</h2>
+                <p>📍 Adresse: [Ihre Straße und Hausnummer], [Postleitzahl] Nenzingen</p>
+                <p>📞 Telefon: +49 1575 4193983</p>
+                <p>✉️ E-Mail: [Ihre E-Mail-Adresse]</p>
+                <p>🕒 Öffnungszeiten: Mo-Fr: 8:00 - 18:00 Uhr</p>
+            </div>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21592.927089013386!2d8.917775927430922!3d47.81643211563041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479af5f2641efba3%3A0x41f6bb7a5df8fe0!2s78359%20Orsingen-Nenzingen%2C%20Germany!5e0!3m2!1sen!2sus!4v1696287291693!5m2!1sen!2sus"
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Mietpark. Alle Rechte vorbehalten.</p>
+            <p>Samuel Auer - Standort: Nenzingen</p>
+            <div class="footer-links">
+                <a href="index.html">Startseite</a>
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutzerklärung</a>
+                <a href="agb.html">AGB</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
